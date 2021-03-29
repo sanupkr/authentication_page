@@ -1,0 +1,77 @@
+body{
+
+  background-color: #E5E8EF;
+  font-style: serif;
+}
+
+
+.topbox{
+  text-align: center;
+  margin: 200px auto 50px auto;
+
+}
+
+.secret_text{
+  font-size: 4rem;
+}
+
+.secret_para{
+  font-size: 1.2rem;
+}
+
+
+.line{
+  margin: 10px auto;
+  width: 60%;
+  opacity: 0.6;
+}
+
+.key_button{
+  text-align: center;
+}
+
+.log_reg{
+  font-size: 3.5rem;
+  margin-left:5%;
+  margin-top: 2%;
+}
+
+
+.login_box{
+  border-radius: 1%;
+  background-color: white;
+  width: 50%;
+  margin:50px;
+  padding: 10px;
+}
+
+.success{
+  padding:20px;
+  font-size: 3rem;
+  background-color: white;
+}
+
+.secrets_head{
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 5%;
+}
+
+.secrets_text{
+  text-align: center;
+  padding: 2%;
+  background-color: grey;
+  font-size: 1.2rem;
+}
+
+.log_out{
+  text-align: center;
+  padding: 2%;
+}
+
+.welcome_text{
+  padding: 2%;
+  text-align: center;
+  font-size: 2rem;
+  font-style: sans-serif;
+}

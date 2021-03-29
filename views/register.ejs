@@ -1,0 +1,26 @@
+<%- include("partials/header"); %>
+<h1 class="log_reg">REGISTER</h1>
+<form class="" action="/register" method="post">
+  <div class="login_box">
+    <div class="mb-3">
+      <label class="form-label">username</label>
+      <input type="text" class="form-control" name="username" value="" placeholder="Enter your username" autocomplete="off">
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Email-id</label>
+      <input type="email" class="form-control" name="email" value="" autocomplete="off" placeholder="Enter your email address">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Password</label>
+      <input type="password" class="form-control" name="password" value="" placeholder="Enter your password" autocomplete="off">
+    </div>
+    <div class="mb-3">
+      <button type="submit" class="btn btn-dark btn-lg" name="button">Register</button>
+    </div>
+  </div>
+
+
+</form>
+
+<%- include("partials/footer"); %>
